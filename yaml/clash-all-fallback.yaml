@@ -7,7 +7,7 @@
 proxy-providers:
 
   mitce:
-    url: "https://app.mitce.net/?sid=295979&token=9f13ac59b2ba1c2f176e"
+    url: ""
     type: http
     interval: 86400
     health-check:
