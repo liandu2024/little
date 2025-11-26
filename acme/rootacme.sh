@@ -148,7 +148,7 @@ export PATH="\$HOME/.acme.sh:\$PATH"
 acme.sh --renew -d $DOMAIN --server $CA_SERVER
 EOF
 chmod +x /root/renew_cert.sh
-(crontab -l 2>/dev/null; echo "0 0 * * * /root/renew_cert.sh > /dev/null 2>&1") | crontab -
+(crontab -l 2>/dev/null; echo "0 3 * * 1 /root/renew_cert.sh > /dev/null 2>&1") | crontab -
 
 # 完成提示
 echo "✅ SSL证书申请完成！"
