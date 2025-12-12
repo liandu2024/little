@@ -22,16 +22,16 @@ proxies:
   - {name: 拒绝, type: reject}
 
 
-  - name: 链式落地节点名称
-    type: socks5
-    server: 
-    port: 
-    username: 
-    password: 
-    udp: true
-    dialer-proxy: 香港-自动
+# 以下为 链式代理 socks5 节点，如果要启用，请将前面的 # 去掉
 
-
+#  - name: 链式落地节点名称
+#    type: socks5
+#    server: 
+#    port: 
+#    username: 
+#    password: 
+#    udp: true
+#    dialer-proxy: 香港-自动
 
 # ========================
 # 策略组定义
@@ -325,5 +325,6 @@ rule-providers:
 #  Telegram / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/telegram.mrs"}  
 #  Telegram / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/telegram.mrs"}
 #  Youtube / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/youtube.mrs"}  
+
 
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
