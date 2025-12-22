@@ -6,7 +6,7 @@
 
 proxy-providers:
 
-  优速通:
+  猫猫新加坡:
     url: "机场订阅地址"
     type: http
     interval: 86400
@@ -16,7 +16,7 @@ proxy-providers:
       interval: 300
     proxy: 直连 
 
-  火烧云:
+  猫猫日本:
     url: "机场订阅地址"
     type: http
     interval: 86400
@@ -24,78 +24,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连 
-    
-  小牛:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-
-  PolYun:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连
-
-  无界云:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连
-   
-  猫耳:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连   
-
-  快猫:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-    
-  BestVPN:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-
-  牛逼:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连      
-
+    proxy: 直连  
 
 
 proxies:
@@ -137,45 +66,6 @@ dns:
     - +.lan
     - +.local
     - geosite:cn
-# 快猫    
-    - +.km688.ink
-# 火烧 
-    - +.onesubv.site
-    - +.oneyyds.online
-    - +.fengyyds.site
-    - +.onemg.top    
-# 猫耳 
-    - +.chybinc.com
-# BestVPN 
-    - +.invitevp.com
-    - +.vp2.us
-# 小牛
-    - +.xiaoniuyun.cc  
-# 硅谷
-    - +.apple-bing.sbs  
-# 无界
-    - +.bncrcloud.com
-# 冰云
-    - +.xby01.xyz
-# 牛逼   
-    - +.idsduf.com  
-    - +.66jc.top
-# 极速通        
-    - +.gfw.gg
-# 萌狗       
-    - +.moedog.cloud
-
-# 其他     
-    - +.ynhtbank.com
-    - +.qeayr.cn
-    - +.saojc.xyz   
-    - +.sssyun.xyz
-    - +.dler.cloud
-    - +.0tk8a3a1q4t94dler.com    
-    - +.aerianas.top
-    - +.gptacg.top
-    - +.wxda.net
-
 ipv6: true
 
 # ========================
@@ -543,4 +433,5 @@ rule-providers:
   
 
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
 
