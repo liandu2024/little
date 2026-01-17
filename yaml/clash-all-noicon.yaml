@@ -7,7 +7,6 @@
 proxy-providers:
 
   机场名称:
-
     url: "机场订阅地址"  
     type: http
     interval: 86400
