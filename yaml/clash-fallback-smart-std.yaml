@@ -6,95 +6,15 @@
 
 proxy-providers:
 
-  火烧:
-    url: "机场订阅地址"
+  机场名称:
+    url: "机场订阅地址"  
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连 
-
-  冰云:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连  
-    
-  小牛:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连    
-
-  硅谷:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
+      interval: 300
     proxy: 直连
-
-  无界:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连
-   
-  猫耳:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连   
-
-  快猫:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连    
-    
-  BestVPN:
-    url: "机场订阅地址a"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连    
-
-  牛逼:
-    url: "机场订阅地址"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 180
-    proxy: 直连      
 
 proxies:
   - {name: 直连, type: direct}
@@ -533,5 +453,6 @@ rule-providers:
 #  Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
 #  Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
 
 
